@@ -1,0 +1,39 @@
+.container {
+    width: 60%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px black;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: rgb(16, 31, 16);
+    
+}
+
+.deleteBtn {
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+}
+
+.deleteImage {
+    height: 1.6em;
+    width: 1.6em;
+    border: none;
+    border-radius: 10px;
+}
+
